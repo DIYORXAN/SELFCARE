@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* 'Amatic SC', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+header .container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2F2;
+    font-family: sans-serif;
+}
+header .container .box:nth-of-type(1) ul{
+    width: 400px;
+    justify-content: space-around;
+    display: flex;
+}
+header .container .box:nth-of-type(1) ul a{
+    padding: 31px 30px;
+    color: rgba(128, 128, 128, 0.918);
+    font-size: 17px;
+    font-weight: 500;
+}
+header .container .box:nth-of-type(1) ul a:hover{
+    color: #F2F2F2;
+    background-color: rgba(128, 128, 128, 0.527);
+}
+header .container .box:nth-of-type(2){
+    width: 210px;
+    display: flex;
+    justify-content: space-around;
+}
+main .container .box:nth-of-type(2) img{
+    width: 35px;
+}
+main .container1{
+    width: 100%;
+    padding-top: 110px;
+}
+main .container1 h1{
+    font-weight: 400;
+    font-size: 54px;
+    
+    font-family: 'Dancing Script', cursive;
+}
+main .container1 h3{
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 45px;
+    font-family: 'Amatic SC', cursive;
+}
+main .container1 hr{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border: 1px solid black;
+}
+main .container1 .box:nth-of-type(1) p:nth-of-type(1){
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+main .container1 .box:nth-of-type(2){
+    width: 1184px;
+    height: 699px;
+    margin: auto;
+    padding-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./hero\ bg.png);
+}
+main .container1 .box5{
+    padding-top: 75px;
+    width: 743px;
+    height: 547px;
+    margin: auto;
+    background: #F8F8F8;
+    opacity: 0.8;
+}
+main .container1 .box5 h2{
+    font-weight: 400;
+    font-size: 54px;
+    font-family: 'Dancing Script', cursive;;
+}
+main .container1 .box5 p{
+    width: 363px;
+    height: 266px;
+    margin: auto;
+    margin-top: 49px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+main .container2{
+    margin: auto;
+    width: 1295px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+main .hh{
+    margin-top: 66px;
+    margin-bottom: 44px;
+    font-weight: 400;
+    font-size: 54px;
+    font-family: 'Dancing Script', cursive;;
+}
+main .container2 .box img{
+    width: 320px;
+    border-radius: 5px;
+}
+main .container2 .box p{
+    width: 319px;
+}
+main .container2 .box p:nth-of-type(1){
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+main .container2 .box p:nth-of-type(2){
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+}
+main .container2 .box p:nth-of-type(3){
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+main .container2 .box a{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    border: 2px solid black;
+    padding: 4px 22px 7px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: -240px;
+}
+main .container2 .box a:hover{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    border: 2px solid black;
+    background-color: black;
+}
+footer .container3{
+    width: 1184px;
+    height: 423px;
+    padding-top: 55px;
+    margin: auto;
+    background: #F0ECEC;
+    margin-bottom: 40px;
+}
+footer .container3 h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 54px;
+}
+footer .container3 input{
+    width: 496px;
+    height: 62px;
+    border: none;
+    border: 1px solid black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 34px;
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.678);
+    text-align: left;
+    padding-left: 10px;
+}
+footer .container3 .box a{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    border: 2px solid black;
+    padding: 7px 35px 7px;
+    font-size: 20px;
+    font-weight: 900;
+}
+footer .container3 .box a:hover{
+    color: #F0ECEC;
+    font-family: 'Dancing Script', cursive;
+    border: 2px solid black;
+    background-color: black;
+}
+footer .box1{
+    width: 1184px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 29px;
+    color: #747474;
+}
